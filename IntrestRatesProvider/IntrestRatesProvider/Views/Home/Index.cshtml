@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<br />
+
+@if (TempData["testmsg"] != null)
+{
+    <script type="text/javascript">
+       alert("@TempData["testmsg"]");
+    </script>
+}
+
+@using (Html.BeginForm("Calculate", "Home", FormMethod.Post, new { @name = "Calculatefrm", @id = "Calculatefrm" }))
+{
+    <p>
+        Enter customer personal id:
+        @Html.TextBox("ClientID", null, new { @class = "Calculate-control", @placeholder = "i.e. 67812203006" })
+    </p>
+    <p>
+        Select new base rate code:
+        @Html.DropDownList("NewRate", new SelectList(Enum.GetValues(typeof(BaseRateCode))), new { @class = "Calculate-control" })
+    </p>
+    <p>
+        <input type="submit" value="Submit Data" id="btnSubmit" />
+    </p>
+}
+
+<h3>@ViewData["Message"]</h3>
+
+@*@@Html.DropDownList("NewRate", new SelectList(Enum.GetValues(typeof(BaseRateCode))), "Select Gender", new { @class = "Calculate-control", @placeholder = "i.e. 67812203006" }) *@

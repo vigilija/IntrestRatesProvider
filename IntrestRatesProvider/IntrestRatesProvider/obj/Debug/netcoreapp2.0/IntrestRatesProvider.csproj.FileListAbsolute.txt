@@ -1,0 +1,13 @@
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\bin\Debug\netcoreapp2.0\IntrestRatesProvider.deps.json
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\bin\Debug\netcoreapp2.0\IntrestRatesProvider.runtimeconfig.json
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\bin\Debug\netcoreapp2.0\IntrestRatesProvider.runtimeconfig.dev.json
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\bin\Debug\netcoreapp2.0\IntrestRatesProvider.dll
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\bin\Debug\netcoreapp2.0\IntrestRatesProvider.pdb
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.csproj.CoreCompileInputs.cache
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.AssemblyInfoInputs.cache
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.AssemblyInfo.cs
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.dll
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.pdb
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.Properties.Resources.resources
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.csproj.GenerateResource.cache
+C:\IISProjects\IntrestRatesProvider\IntrestRatesProvider\obj\Debug\netcoreapp2.0\IntrestRatesProvider.csprojAssemblyReference.cache

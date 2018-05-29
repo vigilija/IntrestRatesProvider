@@ -1,0 +1,98 @@
+﻿
+@model IntrestRatesProvider.Models.ViewModel;
+
+@{
+    ViewData["Title"] = "Calculate";
+}
+
+<h2>Calculated current and new interest rates.</h2>
+<h3>@ViewData["Message"]</h3>
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th></th>
+        <th>
+            Name
+        </th>
+        <th>
+            Surname
+        </th>
+        <th>
+            PersonalID
+        </th>
+    </tr>
+
+
+    @foreach (var item in Model.Clients)
+    {
+        <tr>
+            <td></td>
+
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Surname
+            </td>
+            <td>
+                @item.PersonalID
+            </td>
+        </tr>
+    }
+
+</table>
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th></th>
+        <th>
+            Amount
+        </th>
+        <th>
+            BaseRateCode
+        </th>
+        <th>
+            Duration
+        </th>
+        <th>
+            Margin
+        </th>
+        <th>
+            Rate Old
+        </th>
+        <th>
+            Rate new
+        </th>
+        <th>
+            Rate difference
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Agreemenat)
+    {
+    <tr>
+        <td></td>
+
+        <td>
+            @item.Amount
+        </td>
+        <td>
+            @item.BaseRateCode
+        </td>
+        <td>
+            @item.Duration
+        </td>
+        <td>
+            @item.Margin
+        </td>
+        <td>
+            @item.CurrentInterestRate
+        </td>
+        <td>
+            @item.NewInterestRate
+        </td>
+        <td>
+            @item.Difference
+        </td>
+    </tr>
+    }
+
+</table>
